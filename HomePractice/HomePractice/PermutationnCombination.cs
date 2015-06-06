@@ -32,6 +32,7 @@ namespace HomePractice
                 }
                 builder.Length = builder.Length - 1;
             }
+
         }
     }
 }

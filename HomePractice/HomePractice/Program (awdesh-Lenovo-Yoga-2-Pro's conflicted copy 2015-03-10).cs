@@ -26,28 +26,34 @@ namespace HomePractice
 
 //			factorial f = new factorial ();
 
-            //fibonacci f = new fibonacci ();
-            //int n = f.CalculateFibonacci (8);
+//			fibonacci f = new fibonacci ();
+//			int n = f.CalculateFibonacci (8);
 
-//            Combination combs = new Combination("wxyz");
-//            combs.Combine();
+//			ClockTopCoder clock = new ClockTopCoder ();
+//			string s = clock.whatTime (3661);
+//			Console.WriteLine ("{0}", s);
 
-//			string s = "Awdes   S h ar ma";
-//			FindQuotesInString f = new FindQuotesInString (s);
+			int[] arr = new int[5];
+			arr [0] = 1;
+			arr [1] = 5;
+			arr [2] = 2;
+			arr [3] = 4;
+			arr [4] = 6;
 
-//			StringDups dups = new StringDups ();
-//			dups.StringDuplicates ("geeksforgeeks");
+			SecondLargest sec = new SecondLargest ();
+			int l = sec.FindSecondLargest (arr);
+			Console.WriteLine ("Second largest element is-: {0}", l);
 
-//			SortStrings sort = new SortStrings ();
-//			string[] arr = {"car", "arc", "name"};
-//			sort.SortCollectionOfStrings(arr);
+//			Solution ts = new Solution();
+//			var p = ts.TwoSumOptimized(arr,9);
+//			Console.WriteLine ("{0}", p);
 
-//			int[] arr = { 1, 2, 3, 3, 4 };
-//			dups.removeDuplicates (arr);
+//			ReverseInt rev = new ReverseInt ();
+//			int r = rev.Reverse (-123);
+//			Console.WriteLine("Value of reverse int is-: {0}",r);
 
-			FunnyString fs = new FunnyString ();
 
-			fs.ParseString (Console.ReadLine());
+
 
 		}
 

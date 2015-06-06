@@ -1,0 +1,10 @@
+C:\Users\AS025782\Dropbox\CodeAtHome\HomePractice\HomePractice\bin\Debug\HomePractice.exe
+C:\Users\AS025782\Dropbox\CodeAtHome\HomePractice\HomePractice\bin\Debug\HomePractice.pdb
+C:\Users\AS025782\Dropbox\CodeAtHome\HomePractice\HomePractice\obj\x86\Debug\HomePractice.csprojResolveAssemblyReference.cache
+C:\Users\AS025782\Dropbox\CodeAtHome\HomePractice\HomePractice\obj\x86\Debug\HomePractice.exe
+C:\Users\AS025782\Dropbox\CodeAtHome\HomePractice\HomePractice\obj\x86\Debug\HomePractice.pdb
+C:\Users\AS025782\Dropbox\CodeAtHome\Algorithms\HomePractice\HomePractice\obj\x86\Debug\HomePractice.exe
+C:\Users\AS025782\Dropbox\CodeAtHome\Algorithms\HomePractice\HomePractice\obj\x86\Debug\HomePractice.pdb
+C:\Users\AS025782\Dropbox\CodeAtHome\Algorithms\HomePractice\HomePractice\bin\Debug\HomePractice.exe
+C:\Users\AS025782\Dropbox\CodeAtHome\Algorithms\HomePractice\HomePractice\bin\Debug\HomePractice.pdb
+C:\Users\AS025782\Dropbox\CodeAtHome\Algorithms\HomePractice\HomePractice\obj\x86\Debug\HomePractice.csprojResolveAssemblyReference.cache

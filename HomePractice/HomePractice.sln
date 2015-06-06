@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePractice", "HomePractice\HomePractice.csproj", "{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{71CD4E16-E9E2-494D-8337-D87E59003424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miscellaneous", "Miscellaneous\Miscellaneous.csproj", "{E2643E22-E51F-423F-ACB8-EA324A984C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{68516B6F-3C3A-4FA4-996B-38F28F4C610B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{7096B68F-765A-4A7F-B443-C6E5557A278E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackandQueues", "StackandQueues\StackandQueues.csproj", "{A90995B8-8905-40D6-92F1-4213E0F3650D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{4261F43B-FA29-45A8-848C-82DE83585083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1EB418FF-4A02-45BF-A835-EAD488185220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB418FF-4A02-45BF-A835-EAD488185220}.Debug|x86.ActiveCfg = Debug|x86
+		{1EB418FF-4A02-45BF-A835-EAD488185220}.Debug|x86.Build.0 = Debug|x86
+		{1EB418FF-4A02-45BF-A835-EAD488185220}.Release|x86.ActiveCfg = Release|x86
+		{1EB418FF-4A02-45BF-A835-EAD488185220}.Release|x86.Build.0 = Release|x86
+		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Debug|x86.ActiveCfg = Debug|x86
+		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Debug|x86.Build.0 = Debug|x86
+		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Release|x86.ActiveCfg = Release|x86
+		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Release|x86.Build.0 = Release|x86
+		{4261F43B-FA29-45A8-848C-82DE83585083}.Debug|x86.ActiveCfg = Debug|x86
+		{4261F43B-FA29-45A8-848C-82DE83585083}.Debug|x86.Build.0 = Debug|x86
+		{4261F43B-FA29-45A8-848C-82DE83585083}.Release|x86.ActiveCfg = Release|x86
+		{4261F43B-FA29-45A8-848C-82DE83585083}.Release|x86.Build.0 = Release|x86
+		{68516B6F-3C3A-4FA4-996B-38F28F4C610B}.Debug|x86.ActiveCfg = Debug|x86
+		{68516B6F-3C3A-4FA4-996B-38F28F4C610B}.Debug|x86.Build.0 = Debug|x86
+		{68516B6F-3C3A-4FA4-996B-38F28F4C610B}.Release|x86.ActiveCfg = Release|x86
+		{68516B6F-3C3A-4FA4-996B-38F28F4C610B}.Release|x86.Build.0 = Release|x86
+		{7096B68F-765A-4A7F-B443-C6E5557A278E}.Debug|x86.ActiveCfg = Debug|x86
+		{7096B68F-765A-4A7F-B443-C6E5557A278E}.Debug|x86.Build.0 = Debug|x86
+		{7096B68F-765A-4A7F-B443-C6E5557A278E}.Release|x86.ActiveCfg = Release|x86
+		{7096B68F-765A-4A7F-B443-C6E5557A278E}.Release|x86.Build.0 = Release|x86
+		{71CD4E16-E9E2-494D-8337-D87E59003424}.Debug|x86.ActiveCfg = Debug|x86
+		{71CD4E16-E9E2-494D-8337-D87E59003424}.Debug|x86.Build.0 = Debug|x86
+		{71CD4E16-E9E2-494D-8337-D87E59003424}.Release|x86.ActiveCfg = Release|x86
+		{71CD4E16-E9E2-494D-8337-D87E59003424}.Release|x86.Build.0 = Release|x86
+		{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}.Debug|x86.ActiveCfg = Debug|x86
+		{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}.Debug|x86.Build.0 = Debug|x86
+		{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}.Release|x86.ActiveCfg = Release|x86
+		{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}.Release|x86.Build.0 = Release|x86
+		{A90995B8-8905-40D6-92F1-4213E0F3650D}.Debug|x86.ActiveCfg = Debug|x86
+		{A90995B8-8905-40D6-92F1-4213E0F3650D}.Debug|x86.Build.0 = Debug|x86
+		{A90995B8-8905-40D6-92F1-4213E0F3650D}.Release|x86.ActiveCfg = Release|x86
+		{A90995B8-8905-40D6-92F1-4213E0F3650D}.Release|x86.Build.0 = Release|x86
+		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Debug|x86.ActiveCfg = Debug|x86
+		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Debug|x86.Build.0 = Debug|x86
+		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Release|x86.ActiveCfg = Release|x86
+		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = LinkedList\LinkedList.csproj
+	EndGlobalSection
+EndGlobal
