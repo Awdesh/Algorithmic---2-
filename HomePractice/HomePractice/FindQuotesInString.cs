@@ -7,18 +7,6 @@ namespace HomePractice
 	{
 		public FindQuotesInString (string s)
 		{
-//			bool quoteFlag = false;
-//			int spaceCount = 0;
-//			int a = s [0];
-//			int b = "";
-//			for (int i = 0; i < s.Length; i++) {
-//				if (s [i] == '" ' || quoteFlag == false) {
-//					spaceCount++;
-//				} else {
-//					continue;
-//				}
-//
-//			}
 			s = "'315'382'9915'";
 			// '    -> find a single quotation mark
 			//			(    -> start a matching group

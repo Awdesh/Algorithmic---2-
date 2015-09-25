@@ -51,9 +51,9 @@ namespace Miscellaneous
 			CardShuffle cs = new CardShuffle ();
 			//int[] shuffledCards = cs.ShuffleCards (cards);
 
-			ReverseStringPreserveSpace r = new ReverseStringPreserveSpace ();
-			string op = r.Reverse ("this is bs");
-			Console.WriteLine (op);
+			//ReverseStringPreserveSpace r = new ReverseStringPreserveSpace ();
+			//string op = r.ReverseString ("this is the real test");
+			//Console.WriteLine (op);
 
 //			Pangram p = new Pangram ();
 //			bool val = p.IsPangram ("We promptly judged antique ivory buckles for the prize");
@@ -71,6 +71,9 @@ namespace Miscellaneous
 
 			//StringDuplicates dups = new StringDuplicates ();
 //			dups.FindDuplicates("geeksforgeeks");
+
+			CommonLetters cs1 = new CommonLetters();
+			string s = cs1.FindString("geeksforgeeks" , "geeks");
 
 		}
 	}

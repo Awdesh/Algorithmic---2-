@@ -23,7 +23,6 @@ namespace HomePractice
 
 				// this conversion of string is necessary for map to handle duplicates.
 				string word1 = new string (chArr);
-
 				if (!map.ContainsKey (word1)) 
 				{
 					map.Add (word1, word);

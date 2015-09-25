@@ -39,13 +39,12 @@
     <Compile Include="AllValidPairOfParanthesis.cs" />
     <Compile Include="Pangram.cs" />
     <Compile Include="PangramIndex.cs" />
-    <Compile Include="CommonString.cs" />
     <Compile Include="MedianOfSortedArray.cs" />
-    <Compile Include="RemoveDuplicateFromArray-InPlace.cs" />
     <Compile Include="FindCommonLetter.cs" />
     <Compile Include="StringDuplicates.cs" />
     <Compile Include="CardShuffle.cs" />
     <Compile Include="ReverseStringPreserveSpace.cs" />
+    <Compile Include="CommonLetters.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

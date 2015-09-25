@@ -69,6 +69,6 @@ Global
 		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = HomePractice\HomePractice.csproj
+		StartupItem = Miscellaneous\Miscellaneous.csproj
 	EndGlobalSection
 EndGlobal

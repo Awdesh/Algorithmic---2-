@@ -32,8 +32,8 @@ namespace HomePractice
 //            Combination combs = new Combination("wxyz");
 //            combs.Combine();
 
-//			string s = "Awdes   S h ar ma";
-//			FindQuotesInString f = new FindQuotesInString (s);
+			string s = "Awdes''  S' h 'ar ma";
+			FindQuotesInString f = new FindQuotesInString (s);
 
 //			StringDups dups = new StringDups ();
 //			dups.StringDuplicates ("geeksforgeeks");
@@ -58,10 +58,10 @@ namespace HomePractice
 //			MergeTwoSorted m = new MergeTwoSorted ();
 //			m.merge(A,B,3);
 
-			xome x = new xome ();
-			string s1 = x.Simplify ("dir1/dir2/../dir3/./dir4");
-			string s = x.Simplify ("a/b/../c/./d/.././e");
-			string s2 = x.Simplify ("../abc/./def/ab/../bc/");
+			//xome x = new xome ();
+			//string s1 = x.Simplify ("dir1/dir2/../dir3/./dir4");
+			//string s = x.Simplify ("a/b/../c/./d/.././e");
+			//string s2 = x.Simplify ("../abc/./def/ab/../bc/");
 
 //			TopCodeTemplate template = new TopCodeTemplate ();
 //			int n = template.two (3);

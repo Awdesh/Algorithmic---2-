@@ -8,8 +8,14 @@ namespace HomePractice
 		{
 		}
 
+		/// <summary>
+		/// Calculates the factorial.
+		/// </summary>
+		/// <returns>The factorial.</returns>
+		/// <param name="num">Number.</param>
 		public int CalculateFactorial(int num)
 		{
+			// factorial of 0 is 1.
 			if (num == 0 || num == 1) {
 				return 1;
 			}

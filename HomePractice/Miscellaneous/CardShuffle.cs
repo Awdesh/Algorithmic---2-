@@ -13,12 +13,12 @@ namespace Miscellaneous
 			int startIndex = 0;
 			int endIndex = cards.Length - 1;
 
-			Random rand = new Random ();
+			Random random = new Random ();
 
 			//O(n).
 			for (int i = startIndex; i < endIndex; i++) 
 			{
-				int next = rand.Next (startIndex, endIndex);
+				int next = random.Next (startIndex, endIndex);
 				// swap elements.
 				int temp = cards [next];
 				cards [next] = cards [i];
