@@ -50,7 +50,7 @@ namespace HomePractice
 					largest = arr [i];
 				}
 				// This is going to be used when element encountered is less than element before, since its an unsorted array.
-				else if(arr[i] > secondLargest){
+				else if(secondLargest < arr[i]){
 					secondLargest  = arr[i];
 				}
 			}

@@ -28,10 +28,12 @@ namespace Tree
 		/// Nons the recursive traversal.
 		/// </summary>
 		/// <param name="root">Root.</param>
-		public void NonRecursiveTraversal(TreeNode root)
+		public List<int> NonRecursiveTraversal(TreeNode root)
 		{
+			List<int> nodesData = new List<int> ();
+
 			if (root == null) {
-				return;
+				return null;
 			}
 			Stack<TreeNode> s = new Stack<TreeNode> ();
 			bool done = false;
@@ -48,12 +50,14 @@ namespace Tree
 							break;
 						}
 						Console.WriteLine (temp.getData ());
+						nodesData.Add (temp.getData ());
 						temp = temp.getRight ();
 					} else {
 						done = true;
 					}
 				}
 			}
+			return nodesData;
 		}
 	}
 }

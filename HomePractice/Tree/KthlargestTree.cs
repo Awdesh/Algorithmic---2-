@@ -15,16 +15,16 @@ namespace Tree
 		/// </summary>
 		/// <returns>The node.</returns>
 		/// <param name="node">Node.</param>
-		public void FindNode(TreeNode root)
+		public void TraverseTree(TreeNode root)
 		{
 			if (root == null) {
 				return;
 			}
 
-			FindNode (root.getLeft ());
+			TraverseTree (root.getLeft ());
 			list.Add (root);
 			Console.WriteLine (root.getData ());
-			FindNode (root.getRight ());
+			TraverseTree (root.getRight ());
 		}
 
 		/// <summary>
@@ -35,7 +35,7 @@ namespace Tree
 		/// <param name="k">K.</param>
 		public TreeNode LargestValue(TreeNode root, int k)
 		{
-			FindNode (root);
+			TraverseTree (root);
 			return list [list.Count - k];
 		}
 
@@ -47,7 +47,7 @@ namespace Tree
 		/// <param name="k">K.</param>
 		public TreeNode SmallestValue(TreeNode root, int k)
 		{
-			FindNode (root);
+			TraverseTree (root);
 			return list [k - 1];
 		}
 	}

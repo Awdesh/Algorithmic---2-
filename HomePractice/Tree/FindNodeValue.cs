@@ -56,6 +56,37 @@ namespace Tree
 				return IsValueExistsRecursive (root.getRight (), value);
 			}
 		}
+
+		/// <summary>
+		/// Determines whether this instance is present the specified root val.
+		/// </summary>
+		/// <returns><c>true</c> if this instance is present the specified root val; otherwise, <c>false</c>.</returns>
+		/// <param name="root">Root.</param>
+		/// <param name="val">Value.</param>
+		public int IsPresent(TreeNode root, int val)
+		{
+			if (root == null) {
+				return 0;
+			}
+
+			TreeNode curr = root;
+			while (curr != null) {
+
+				if (curr.getData () == val) {
+					return 1;
+				}
+
+				if (curr.getData () > val) {
+					curr = curr.getLeft ();
+				} else {
+					curr = curr.getRight ();
+				}
+
+			}
+
+			return 0;
+
+		}
 	}
 }
 

@@ -20,12 +20,18 @@ namespace LinkedList
 			LinkedListNode next = null;
 			LinkedListNode current = node;
 			while (current !=null && current.getNext() != null) {
+
 				next = current.getNext ();
-				if (current.getData () == next.getData ()) {
+
+				if (current.getData () == next.getData ()) 
+				{
 					LinkedListNode temp = next.getNext ();
 					current.setNext (temp);
-				} else {
-					current = current.getNext ();
+				}
+
+				else
+				{
+					current = next;
 				}
 			}
 			return node;

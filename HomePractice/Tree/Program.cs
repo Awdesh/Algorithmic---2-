@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Tree
 {
@@ -9,11 +10,36 @@ namespace Tree
 			TreeNode node = new TreeNode ();
 			TreeNode n = node.CreateBinaryTree ();
 
-			KthlargestTree largest = new KthlargestTree ();
-			TreeNode t = largest.LargestValue (n, 5);
-			Console.WriteLine ("kth largest element is-: {0}", t.getData ());
-			TreeNode s = largest.SmallestValue (n, 3);
-			Console.WriteLine ("kth smallest element is-: {0}", s.getData ());
+			InOrderTraversal io = new InOrderTraversal ();
+			List<int> nodes = io.NonRecursiveTraversal (n);
+
+
+			for (int i = 0; i < nodes.Count; i++) 
+			{
+				n.setData (nodes [i]);
+				n = n.getRight ();
+			}
+
+//			KthInBST find = new KthInBST ();
+//			TreeNode tn = find.Find (n, 8);
+//			Console.WriteLine ("{0}", tn.getData ());
+//
+			///int[] arr = new int[6]{0,1,2,6,5,4};
+
+//			FindNodeValue find = new FindNodeValue ();
+//			int val = find.IsPresent (n, 5);
+//
+//			Console.WriteLine ("{0}", val);
+//
+
+//			PathToSum ps = new PathToSum ();
+//			ps.pathSum (n, 70);
+//
+//			KthlargestTree largest = new KthlargestTree ();
+//			TreeNode t = largest.LargestValue (n, 5);
+//			Console.WriteLine ("kth largest element is-: {0}", t.getData ());
+//			TreeNode s = largest.SmallestValue (n, 3);
+//			Console.WriteLine ("kth smallest element is-: {0}", s.getData ());
 
 //			TreeNode node = new TreeNode ();
 //			TreeNode n = node.CreateBinaryTree ();
@@ -54,6 +80,27 @@ namespace Tree
 
 //			SwapnInorder swap = new SwapnInorder ();
 //			swap.SwapOperation (n,3);
+		}
+	}
+
+	public class BinarySearch
+	{
+		public int Switch(int[] arr)
+		{
+			int low = 0;
+			int high = arr.Length - 2;
+			int mid = low + high / 2;
+
+			while (low <= high) {
+				if (arr [mid] < arr [high] && arr [mid] > arr [low]) {
+					return mid;
+				} else if (arr [mid] > arr [low]) {
+					mid = low + 1;
+				} else {
+
+				}
+			}
+			return -1;
 		}
 	}
 

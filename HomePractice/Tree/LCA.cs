@@ -34,7 +34,7 @@ namespace Tree
 		/// <summary>
 		/// http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
 		/// </summary>
-		/// <returns>The LC aof BT, Not BST</returns>
+		/// <returns>The LCA of BT, Not BST</returns>
 		/// <param name="root">Root.</param>
 		/// <param name="val1">Val1.</param>
 		/// <param name="val2">Val2.</param>
@@ -55,6 +55,7 @@ namespace Tree
 				return root;
 			}
 
+			// either left_lca or right_lca whichever is non-null would have value of lca.
 			return (left_lca != null) ? left_lca : right_lca;
 		}
 	}

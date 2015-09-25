@@ -10,7 +10,7 @@ namespace MSSelection
 
 		/**
  * Counting sort
- * @param array array to be sorted
+ * @param array to be sorted
  * @return array sorted in ascending order
  */
 		public int[] CountingSortExample(int[] array)

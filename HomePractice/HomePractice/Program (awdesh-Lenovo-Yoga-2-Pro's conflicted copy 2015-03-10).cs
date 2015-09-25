@@ -51,10 +51,6 @@ namespace HomePractice
 //			ReverseInt rev = new ReverseInt ();
 //			int r = rev.Reverse (-123);
 //			Console.WriteLine("Value of reverse int is-: {0}",r);
-
-
-
-
 		}
 
 	}

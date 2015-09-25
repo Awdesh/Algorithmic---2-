@@ -50,6 +50,8 @@
     <Compile Include="SwapnInorder.cs" />
     <Compile Include="PrintPaths.cs" />
     <Compile Include="KthlargestTree.cs" />
+    <Compile Include="PathToSum.cs" />
+    <Compile Include="KthInBST.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

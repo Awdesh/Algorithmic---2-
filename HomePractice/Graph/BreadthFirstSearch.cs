@@ -3,55 +3,70 @@ using System.Collections.Generic;
 
 namespace Graph
 {
-	public class Person
+	public class BreadthFirstSearch
 	{
-		public Person(string name)
-		{
-			this.name = name;
-		}
 
-		public string name { get; set; }
-		List<Person> FriendsList = new List<Person>();
-
-		public List<Person> Friends
+		/// <summary>
+		/// Prints the each level of friends.
+		/// </summary>
+		/// <param name="root">Root.</param>
+		public void PrintEachLevel(Person root)
 		{
-			get
+			Queue<Person> Q = new Queue<Person> ();
+			List<Person> friends = new List<Person> ();
+			Q.Enqueue (root);
+			friends.Add (root);
+			root.IsDiscovered = true;
+			int cnt = 1;
+
+			while (Q.Count > 0) 
 			{
-				return FriendsList;
+				Person p = Q.Dequeue ();
+				Console.Write ("Level-: {0}", cnt++);
+				foreach (Person friend in p.Friends) 
+				{
+					if (!friend.IsDiscovered) 
+					{
+						Console.Write (friend.name);
+						Q.Enqueue (friend);
+						friend.IsDiscovered = true;
+					}
+				}
 			}
 		}
 
-		public void isFriendOf(Person p)
+		/// <summary>
+		/// Traverse the specified root.
+		/// </summary>
+		/// <param name="root">Root.</param>
+		public void Traverse(Person root)
 		{
-			FriendsList.Add(p);
-		}
+			Queue<Person> traverseOrder = new Queue<Person>();
 
-		public override string ToString()
-		{
-			return name;
-		}
-	}
+			Queue<Person> Q = new Queue<Person>();
+			Q.Enqueue(root);
+			root.IsDiscovered = true;
 
-	public class BreadthFirstSearch
-	{
-		public Person BuildFriendGraph()
-		{
-			Person Aaron = new Person("Aaron");
-			Person Betty = new Person("Betty");
-			Person Brian = new Person("Brian");
-			Aaron.isFriendOf(Betty);
-			Aaron.isFriendOf(Brian);
+			while (Q.Count > 0)
+			{
+				Person p = Q.Dequeue();
+				traverseOrder.Enqueue(p);
 
-			Person Catherine = new Person("Catherine");
-			Person Carson = new Person("Carson");
-			Person Darian = new Person("Darian");
-			Person Derek = new Person("Derek");
-			Betty.isFriendOf(Catherine);
-			Betty.isFriendOf(Darian);
-			Brian.isFriendOf(Carson);
-			Brian.isFriendOf(Derek);
+				foreach (Person friend in p.Friends)
+				{
+					if (!friend.IsDiscovered)
+					{
+						Q.Enqueue(friend);
+						friend.IsDiscovered = true;
+					}
+				}
+			}
 
-			return Aaron;
+			while (traverseOrder.Count > 0)
+			{
+				Person p = traverseOrder.Dequeue();
+				Console.WriteLine(p);
+			}
 		}
 
 		//http://en.wikipedia.org/wiki/Breadth-first_search#Pseudocode
@@ -79,36 +94,7 @@ namespace Graph
 			return null;
 		}
 
-		public void Traverse(Person root)
-		{
-			Queue<Person> traverseOrder = new Queue<Person>();
 
-			Queue<Person> Q = new Queue<Person>();
-			List<Person> S = new List<Person>();
-			Q.Enqueue(root);
-			S.Add(root);
-
-			while (Q.Count > 0)
-			{
-				Person p = Q.Dequeue();
-				traverseOrder.Enqueue(p);
-
-				foreach (Person friend in p.Friends)
-				{
-					if (!S.Contains(friend))
-					{
-						Q.Enqueue(friend);
-						S.Add(friend);
-					}
-				}
-			}
-
-			while (traverseOrder.Count > 0)
-			{
-				Person p = traverseOrder.Dequeue();
-				Console.WriteLine(p);
-			}
-		}
 	}
 }
 

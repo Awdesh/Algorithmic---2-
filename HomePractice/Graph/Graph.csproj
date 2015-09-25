@@ -38,6 +38,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AdjacenyList.cs" />
     <Compile Include="BreadthFirstSearch.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="DepthFirstSearch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

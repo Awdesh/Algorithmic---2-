@@ -48,6 +48,9 @@
     <Compile Include="RemoveNodeOfGivenValue.cs" />
     <Compile Include="SecondLastNode.cs" />
     <Compile Include="ReverseGroup.cs" />
+    <Compile Include="RemoveSecondLastNode.cs" />
+    <Compile Include="Flatten.cs" />
+    <Compile Include="SwapEvenNodes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

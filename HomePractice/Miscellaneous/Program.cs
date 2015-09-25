@@ -42,6 +42,19 @@ namespace Miscellaneous
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
+
+			int[] cards = new int[52];
+			for (int i = 0; i< 52; i++) {
+				cards [i] = i;
+			}
+
+			CardShuffle cs = new CardShuffle ();
+			//int[] shuffledCards = cs.ShuffleCards (cards);
+
+			ReverseStringPreserveSpace r = new ReverseStringPreserveSpace ();
+			string op = r.Reverse ("this is bs");
+			Console.WriteLine (op);
+
 //			Pangram p = new Pangram ();
 //			bool val = p.IsPangram ("We promptly judged antique ivory buckles for the prize");
 //			string s = val?"pangram":"not pangram";

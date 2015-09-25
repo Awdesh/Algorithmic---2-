@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdjacenyList.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="BreadthFirstSearch.cs" Line="33" Column="1" />
+      <File FileName="Person.cs" Line="1" Column="1" />
+      <File FileName="DepthFirstSearch.cs" Line="1" Column="14" />
+      <File FileName="../MS/IntToString.cs" Line="1" Column="1" />
+      <File FileName="AdjacenyList.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/Graph/Program.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

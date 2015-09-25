@@ -44,6 +44,8 @@
     <Compile Include="RemoveDuplicateFromArray-InPlace.cs" />
     <Compile Include="FindCommonLetter.cs" />
     <Compile Include="StringDuplicates.cs" />
+    <Compile Include="CardShuffle.cs" />
+    <Compile Include="ReverseStringPreserveSpace.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

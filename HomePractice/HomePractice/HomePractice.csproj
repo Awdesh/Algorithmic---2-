@@ -49,6 +49,14 @@
     <Compile Include="SortStrings.cs" />
     <Compile Include="dups.cs" />
     <Compile Include="FunnyString.cs" />
+    <Compile Include="MergeTwoSorted.cs" />
+    <Compile Include="FindRange.cs" />
+    <Compile Include="xome.cs" />
+    <Compile Include="TopCodeTemplate.cs" />
+    <Compile Include="ReverseWords.cs" />
+    <Compile Include="MissingNumber-caching.cs" />
+    <Compile Include="AllAnagramsInFile.cs" />
+    <Compile Include="ReverseWordsInStrings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

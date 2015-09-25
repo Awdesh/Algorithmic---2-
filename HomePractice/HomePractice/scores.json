@@ -1,0 +1,41 @@
+{
+	student:'Jon',
+	assignment:'exam',
+	grade:100
+}
+
+{
+	student:'Snow',
+	assignment:'hw',
+	grade:80
+}
+
+{
+	student:'Jimmy',
+	assignment:'exam',
+	grade:85
+}
+
+{
+	student:'ziggler',
+	assignment:'exam',
+	grade:100
+}
+
+{
+	student:'John',
+	assignment:'hw-1',
+	grade:90
+}
+
+{
+	student:'Awdesh',
+	assignment:'quiz',
+	grade:100
+}
+
+{
+	student:'Nikas',
+	assignment:'exam',
+	grade:100
+}
