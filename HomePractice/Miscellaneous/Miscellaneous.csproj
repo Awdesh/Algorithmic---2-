@@ -42,13 +42,12 @@
     <Compile Include="MedianOfSortedArray.cs" />
     <Compile Include="FindCommonLetter.cs" />
     <Compile Include="StringDuplicates.cs" />
-<<<<<<< HEAD
     <Compile Include="CardShuffle.cs" />
     <Compile Include="ReverseStringPreserveSpace.cs" />
     <Compile Include="CommonLetters.cs" />
-=======
     <Compile Include="FindFirstAndLastOccurance.cs" />
->>>>>>> BinarySearchProblems
+    <Compile Include="CountOccuranceOfANumber.cs" />
+    <Compile Include="FrequencyOfArrayRotation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

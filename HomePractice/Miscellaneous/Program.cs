@@ -42,25 +42,23 @@ namespace Miscellaneous
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
-<<<<<<< HEAD
 
 			int[] cards = new int[52];
 			for (int i = 0; i< 52; i++) {
 				cards [i] = i;
 			}
 
-			CardShuffle cs = new CardShuffle ();
+			//CardShuffle cs = new CardShuffle ();
 			//int[] shuffledCards = cs.ShuffleCards (cards);
 
 			//ReverseStringPreserveSpace r = new ReverseStringPreserveSpace ();
 			//string op = r.ReverseString ("this is the real test");
 			//Console.WriteLine (op);
 
-=======
-			int[] arr = new int[]{2,4,10,10,10,10,10,18};
-			FindFirstAndLastOccurance f = new FindFirstAndLastOccurance ();
-			int[] A = f.Find (arr, 10);
->>>>>>> BinarySearchProblems
+			//int[] arr = new int[]{2,4,10,10,10,10,10,18};
+			//FindFirstAndLastOccurance f = new FindFirstAndLastOccurance ();
+			//int[] A = f.Find (arr, 10);
+
 //			Pangram p = new Pangram ();
 //			bool val = p.IsPangram ("We promptly judged antique ivory buckles for the prize");
 //			string s = val?"pangram":"not pangram";
@@ -78,8 +76,15 @@ namespace Miscellaneous
 			//StringDuplicates dups = new StringDuplicates ();
 //			dups.FindDuplicates("geeksforgeeks");
 
-			CommonLetters cs1 = new CommonLetters();
-			string s = cs1.FindString("geeksforgeeks" , "geeks");
+			//CommonLetters cs1 = new CommonLetters();
+			//string s = cs1.FindString("geeksforgeeks" , "geeks");
+
+			int[] arr = new int[]{12,14,16,18,4,5,6,8};
+			FrequencyOfArrayRotation freq = new FrequencyOfArrayRotation();
+			int count = freq.CountFrequency (arr);
+			
+			//CountOccuranceOfANumber c = new CountOccuranceOfANumber ();
+			//int count = c.Count (arr, 10);
 
 		}
 	}
