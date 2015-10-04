@@ -49,6 +49,7 @@
     <Compile Include="SortStrings.cs" />
     <Compile Include="dups.cs" />
     <Compile Include="FunnyString.cs" />
+<<<<<<< HEAD
     <Compile Include="MergeTwoSorted.cs" />
     <Compile Include="FindRange.cs" />
     <Compile Include="xome.cs" />
@@ -57,6 +58,10 @@
     <Compile Include="MissingNumber-caching.cs" />
     <Compile Include="AllAnagramsInFile.cs" />
     <Compile Include="ReverseWordsInStrings.cs" />
+=======
+    <Compile Include="StringCompression.cs" />
+    <Compile Include="PrintDifference.cs" />
+>>>>>>> BinarySearchProblems
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,6 +8,39 @@ namespace HomePractice
 		{
 			Console.WriteLine ("Hello World!");
 
+			int N = Convert.ToInt32(Console.ReadLine());
+			decimal d1 = 3 / 6;
+			Console.WriteLine (Math.Round(Convert.ToDecimal (d1), 2));
+			int[] A = new int[N];
+			int i = 0;
+			while(i < N)
+			{
+				A[i] = Convert.ToInt32(Console.Read());
+				i++;
+			}
+
+
+			int sum = 0;
+			int[,] A1 = new int[,] {
+				{11, 2, 4},
+				{4, 5, 6},
+				{10, 8, -16},
+			};
+//			for(int i = 0; i < N; i++ )
+//			{
+//				for(int j = 0; j < N; j++)
+//				{
+//					A[i,j] = Convert.ToInt32(Console.Read());
+//				}
+//				Console.WriteLine();
+//			}
+
+
+
+			int difference = PrintDifference.Difference(A1, 3);
+			Console.WriteLine("{0}", difference);
+
+
 //			FindSumOfDivisibles fd = new FindSumOfDivisibles ();
 //			int sum = fd.FindSum (1000);
 //			Console.WriteLine ("sum is-: {0}", sum);
@@ -49,11 +82,26 @@ namespace HomePractice
 //
 //			fs.ParseString (Console.ReadLine());
 
+<<<<<<< HEAD
 //			int[] A = new int[]{2,4,6};
 //			int[] B = new int[]{5,7,7,8,8,10,11, 12, 13, 14, 15, 16, 16, 16, 16, 17, 18};
 //
 //			FindRange fr = new FindRange ();
 //			int[] newArr = fr.Find (B, 16);
+=======
+//			StringCompression sc = new StringCompression ();
+//			char[] chArr = sc.Compress ("abbbccccdd");
+//			string s = chArr.ToString ();
+//
+//			int n = Convert.ToInt32(Console.ReadLine());
+//			int V = Convert.ToInt32(Console.ReadLine());
+//			int[] arr = new int[n];
+//			for( int i = 0; i < n; i++)
+//			{
+//				arr[i] = Convert.ToInt32(Console.Read());
+//			}
+//			FindIndex(arr, V, n);
+>>>>>>> BinarySearchProblems
 
 //			MergeTwoSorted m = new MergeTwoSorted ();
 //			m.merge(A,B,3);
@@ -89,5 +137,16 @@ namespace HomePractice
 			//string op = rw.ReverseSentence ("string item.");
 		}
 
+		static void FindIndex(int[] ar, int V, int n)
+		{
+			for( int index = 0; index < n; index++)
+			{
+				if(ar[index] == V)
+				{
+					Console.WriteLine(index);
+					return;
+				}
+			}
+		}
 	}
 }

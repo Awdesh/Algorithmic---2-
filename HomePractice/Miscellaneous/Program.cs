@@ -42,6 +42,7 @@ namespace Miscellaneous
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
+<<<<<<< HEAD
 
 			int[] cards = new int[52];
 			for (int i = 0; i< 52; i++) {
@@ -55,6 +56,11 @@ namespace Miscellaneous
 			//string op = r.ReverseString ("this is the real test");
 			//Console.WriteLine (op);
 
+=======
+			int[] arr = new int[]{2,4,10,10,10,10,10,18};
+			FindFirstAndLastOccurance f = new FindFirstAndLastOccurance ();
+			int[] A = f.Find (arr, 10);
+>>>>>>> BinarySearchProblems
 //			Pangram p = new Pangram ();
 //			bool val = p.IsPangram ("We promptly judged antique ivory buckles for the prize");
 //			string s = val?"pangram":"not pangram";

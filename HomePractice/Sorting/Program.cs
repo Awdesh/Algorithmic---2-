@@ -8,9 +8,11 @@ namespace Sorting
 		{
 
 			Console.WriteLine ("Hello World!");
-			int[] arr = new int[] { 2,5,3,7,9};
-			int[] ar = HeapSort.Sort (arr);
-			int len = ar.Length;
+			int[] arr = new int[] { 5,8,1,3,7,9,2};
+			QuickSort sort = new QuickSort ();
+			sort.quickSort (arr);
+			//int[] ar = HeapSort.Sort (arr);
+			//int len = ar.Length;
 		}
 	}
 }
