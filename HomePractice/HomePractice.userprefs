@@ -1,38 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HomePractice/FunnyString.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Miscellaneous/FindFirstAndLastOccurance.cs">
     <Files>
-      <File FileName="HomePractice/Program.cs" Line="57" Column="4" />
-      <File FileName="HomePractice/AllAnagramsInFile.cs" Line="1" Column="1" />
-      <File FileName="Miscellaneous/ReverseStringPreserveSpace.cs" Line="1" Column="1" />
-      <File FileName="LinkedList/AddLinkedListNode.cs" Line="42" Column="21" />
-      <File FileName="HomePractice/ReverseWordsInStrings.cs" Line="79" Column="18" />
-      <File FileName="HomePractice/ReverseWords.cs" Line="1" Column="1" />
-      <File FileName="HomePractice/xome.cs" Line="32" Column="4" />
-      <File FileName="HomePractice/STringDups.cs" Line="1" Column="1" />
-      <File FileName="HomePractice/SortStrings.cs" Line="1" Column="1" />
-      <File FileName="HomePractice/FunnyString.cs" Line="28" Column="4" />
+      <File FileName="Miscellaneous/FindFirstAndLastOccurance.cs" Line="14" Column="27" />
+      <File FileName="Miscellaneous/Program.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/HomePractice/ReverseWordsInStrings.cs" line="90" column="1" />
-      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/HomePractice/ReverseWordsInStrings.cs" line="88" column="1" />
-      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/HomePractice/Program.cs" line="90" column="1" />
-      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/HomePractice/Program.cs" line="62" column="1" />
-      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/HomePractice/Program.cs" line="65" column="1" />
+      <Breakpoint file="/home/awdesh/Dropbox/CodeAtHome/Algorithmic-2/HomePractice/Miscellaneous/Program.cs" line="47" column="1" />
+      <Breakpoint file="/home/awdesh/Dropbox/CodeAtHome/Algorithmic-2/HomePractice/Miscellaneous/FindFirstAndLastOccurance.cs" line="18" column="1" />
     </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="HomePractice/ReverseWords.cs" line="86" offsetX="435" offsetY="1526" expression="stack.Count" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../sandbox/HackerRank/HackerRank-Problems/README.md">
-    <Files>
-      <File FileName="../../../../sandbox/HackerRank/HackerRank-Problems/README.md" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
