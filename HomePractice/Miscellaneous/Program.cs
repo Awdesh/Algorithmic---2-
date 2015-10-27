@@ -1,4 +1,4 @@
-using System;
+	using System;
 using System.Collections.Generic;
 
 namespace Miscellaneous
@@ -65,15 +65,21 @@ namespace Miscellaneous
 //			FindCommonLetter common = new FindCommonLetter ();
 //			common.FindCommon ("hi","world");
 //
-//			AllValidPairOfParanthesis pair = new AllValidPairOfParanthesis ();
-//			char[] chArr = new char[10];
-//			pair.PrintParanthesis (0,3,0,0, chArr);
+			AllValidPairOfParanthesis pair = new AllValidPairOfParanthesis ();
+			char[] chArr = new char[10];
+			pair.PrintParanthesis (0,3,0,0, chArr);
 
 			//StringDuplicates dups = new StringDuplicates ();
 //			dups.FindDuplicates("geeksforgeeks");
 
 			CommonLetters cs1 = new CommonLetters();
-			string s = cs1.FindString("geeksforgeeks" , "geeks");
+			// s = cs1.FindString("geeksforgeeks" , "geeks");
+
+//			char[] chArr = new char[]{'a','b','c'};
+//			string ss = new string (chArr);
+
+//			ss = "dir1/dir2/../..dir3";
+//			string[] str = ss.Split(new char[]{'/'});
 
 		}
 	}
