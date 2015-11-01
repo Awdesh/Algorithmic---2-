@@ -15,7 +15,9 @@
 //			}
 //			int leftMin = FindSmallestValue (root.getLeft ());
 //			int rightMin = FindSmallestValue (root.getRight ());
-//
+//			
+			int min = Math.min(leftMin, rightMin);
+			return min;
 //		}
 //	}
 //}

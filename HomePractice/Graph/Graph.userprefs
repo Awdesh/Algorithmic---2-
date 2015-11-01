@@ -3,9 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="AdjacenyList.cs">
     <Files>
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="BreadthFirstSearch.cs" Line="33" Column="1" />
+      <File FileName="BreadthFirstSearch.cs" Line="1" Column="1" />
       <File FileName="Person.cs" Line="1" Column="1" />
-      <File FileName="DepthFirstSearch.cs" Line="1" Column="14" />
+      <File FileName="DepthFirstSearch.cs" Line="1" Column="1" />
       <File FileName="../MS/IntToString.cs" Line="1" Column="1" />
       <File FileName="AdjacenyList.cs" Line="1" Column="1" />
     </Files>

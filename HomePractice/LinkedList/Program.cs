@@ -4,9 +4,9 @@ namespace LinkedList
 {
 	class LinkedList
 	{
-		private LinkedListNode head;
+		private static LinkedListNode head;
 
-		public void AddFirst(int data)
+		public static void AddFirst(int data)
 		{
 			LinkedListNode current = new LinkedListNode ();
 			current.setData(data);
@@ -14,7 +14,7 @@ namespace LinkedList
 			head = current;
 		}
 
-		public void AddLast(int data)
+		public static void AddLast(int data)
 		{
 			if (head == null) {
 				head = new LinkedListNode ();
@@ -30,7 +30,40 @@ namespace LinkedList
 			toAdd.setData (data);
 		}
 
-		public LinkedListNode DeleteNode(LinkedListNode head, int data)
+		public static LinkedListNode AddAtSpecificPosition(LinkedListNode head, int data, int position)
+		{
+			if(position == 0)
+			{
+				LinkedListNode n = new LinkedListNode();
+				n.setData(data);
+				n.setNext(head);
+				head = n;
+				return head;
+			}
+
+			LinkedListNode curr = head;
+			int pos = 0;
+			while(curr != null && curr.getNext() != null)
+			{
+				LinkedListNode prev = curr;
+
+				if(++pos == position)
+				{
+					LinkedListNode n = new LinkedListNode();
+					n.setData(data);
+					n.setNext(curr.getNext());
+					prev.setNext (n);
+					break;
+				}
+
+				curr = curr.getNext();
+
+			}
+
+			return head;
+		}
+
+		public static LinkedListNode DeleteNode(LinkedListNode head, int data)
 		{
 			if (head == null) {
 				return head;
@@ -86,10 +119,15 @@ namespace LinkedList
 			node8.setData (8);
 			node8.setNext (null);
 
+			//LinkedListNode res = AddAtSpecificPosition (node1, 89, 0);
 
-			SwapEvenNodes s = new SwapEvenNodes ();
+			LinkedListNode node = SwapNodes.Swap (node1);
 
-			s.Swap (node1);
+
+
+			//SwapEvenNodes s = new SwapEvenNodes ();
+
+			//s.Swap (node1);
 
 //			LinkedListNode node10 = new LinkedListNode();
 //			LinkedListNode node5 = new LinkedListNode();

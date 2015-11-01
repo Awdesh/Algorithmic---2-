@@ -45,6 +45,11 @@
     <Compile Include="CardShuffle.cs" />
     <Compile Include="ReverseStringPreserveSpace.cs" />
     <Compile Include="CommonLetters.cs" />
+    <Compile Include="FindFirstAndLastOccurance.cs" />
+    <Compile Include="CountOccuranceOfANumber.cs" />
+    <Compile Include="FrequencyOfArrayRotation.cs" />
+    <Compile Include="MaxSumSubArray.cs" />
+    <Compile Include="MaxPointSameLine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

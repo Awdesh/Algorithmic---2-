@@ -81,12 +81,9 @@ namespace Tree
 				} else {
 					curr = curr.getRight ();
 				}
-
 			}
-
 			return 0;
-
-		}
+			}
 	}
 }
 

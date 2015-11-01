@@ -32,7 +32,7 @@ namespace Tree
 		}
 
 		/// <summary>
-		/// http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+		/// 	
 		/// </summary>
 		/// <returns>The LCA of BT, Not BST</returns>
 		/// <param name="root">Root.</param>

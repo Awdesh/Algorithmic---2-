@@ -51,6 +51,7 @@
     <Compile Include="RemoveSecondLastNode.cs" />
     <Compile Include="Flatten.cs" />
     <Compile Include="SwapEvenNodes.cs" />
+    <Compile Include="SwapNodes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
