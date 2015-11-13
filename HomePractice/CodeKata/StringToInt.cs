@@ -53,6 +53,106 @@ class Solution
 
        return list1;
    }
+    static bool IsPalindrome(string ip)
+    {
+
+        if (ip.Length == 1)
+            return true;
+
+        if (ip == null || ip.Length <= 0)
+            return false;
+
+
+        int i = 0;
+        int j = ip.Length - 1;
+        char[] chArr = ip.ToCharArray();
+
+        while (i <= j)
+        {
+            if (chArr[i] != chArr[j])
+            {
+                return false;
+            }
+            i++;
+            j--;
+        }
+
+        return true;
+    }
+
+    /*
+    
+    */
+    public static string Reverse(string word)
+    {
+        string[] arr = word.Split(' ');
+        if (arr.Length == 1)
+            return word;
+
+        Stack<string> stack = new Stack<string>();
+
+        foreach (string s in arr)
+        {
+            stack.Push(s);
+        }
+
+        StringBuilder sb = new StringBuilder();
+        while (stack.Count > 0)
+        {
+            sb.Append(stack.Pop());
+            sb.Append(' ');
+        }
+
+        return sb.ToString();
+    }
+
+    public static char FindFirstNonRepeating(string ip)
+    {
+        Dictionary<char, int> map = new Dictionary<char, int>();
+        char[] chArr = ip.ToCharArray();
+
+        for (int i = 0; i < chArr.Length; i++)
+        {
+            if (!map.ContainsKey(chArr[i]))
+            {
+                map.Add(chArr[i], 1);
+            }
+            else
+            {
+                map[chArr[i]]++;
+            }
+        }
+
+        foreach (char c in map.Keys)
+        {
+            if (map[c] == 1)
+            {
+                return c;
+            }
+        }
+
+        return ' ';
+    }
+
+    public static List<int> FindDuplicate(int[] arr)
+    {
+        int[] count = new int[arr.Length + 1];
+        for (int i = 0; i < arr.Length; i++)
+        {
+            count[arr[i]] += 1;
+        }
+
+        List<int> l = new List<int>();
+        for (int i = 0; i < count.Length; i++)
+        {
+            Console.WriteLine(count[i]);
+            if (count[arr[i]] > 1)
+            {
+                l.Add(arr[i]);
+            }
+        }
+        return l;
+    }
 
    static void Main(string[] args)
    {
