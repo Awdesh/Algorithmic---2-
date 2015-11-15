@@ -6,28 +6,33 @@ using System.Collections.Generic;
 
 class Solution
 {
-    static List<int> ConvertStringToInt(string s)
+    static int ConvertStringToInt(string s)
     {
-        List<int> list1 = new List<int>();
-        if(s.Equals(""))
-        {
-            list1.Add(-1);
-            return list1;
-        }
+		if(s.Equals(""))
+		{
+			return -1;
+		}
 
-        char[] chArr = s.ToCharArray();
-        int len = chArr.Length;
+		bool isNeg = false;
+		char[] chArr = s.ToCharArray();
+		if(chArr[0] == '-')
+			isNeg = true;
 
-        for(int i = 0; i < len; i++)
-        {
-            if(chArr[i] == ' ')
-                continue;
-            int val = chArr[i] - '0';
-            list1.Add(val);
-        }
+		int len = chArr.Length;
+		int num = 0;
+		for(int i = 0; i < len; i++)
+		{
+			if(chArr[i] == '-')
+				continue;
+			int val = chArr[i] - '0';
+			num = num * 10 + val;
+		}
 
-        return list1;
-    }
+		if (isNeg)
+			num *= -1;
+
+		return num;
+	}
 
     static List<char> ConvertIntToString(int num)
    {
