@@ -159,15 +159,6 @@ class Solution
         return l;
     }
 
-   static void Main(string[] args)
-   {
-       List<char> l = ConvertIntToString(1234);
-       foreach (char i in l)
-       {
-           Console.Write(i);
-       }
-   }
-
     static void Main(string[] args)
     {
         List<int> l = ConvertStringToInt("12 34");
