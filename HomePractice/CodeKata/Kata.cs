@@ -310,36 +310,18 @@ class Solution
     */
     public static int MaxContiguosDifferenceII(int[] A)
     {
-        int len = A.Length;
-        int diff = 0;
-        int max = A[1]- A[0];
-
-        for(int i = 1; i < len - 1; i++)
         {
-            if(max < A[i+1] - A[i] && A[i+1] - A[i] > 0)
-            {
-                max = A[i+1] - A[i];
-            }
-        }
-
-        return max;
-
-
-        /*
-        int maxDiff(int arr[], int arr_size)
-{
-  int max_diff = arr[1] - arr[0];
-  int min_element = arr[0];
-  int i;
-  for(i = 1; i < arr_size; i++)
-  {
-    if (arr[i] - min_element > max_diff)
-      max_diff = arr[i] - min_element;
-    if (arr[i] < min_element)
-         min_element = arr[i];
-  }
-  return max_diff;
-}   */
+          int max_diff = arr[1] - arr[0];
+          int min_element = arr[0];
+          int i;
+          for(i = 1; i < arr_size; i++)
+          {
+            if (arr[i] - min_element > max_diff)
+              max_diff = arr[i] - min_element;
+            if (arr[i] < min_element)
+                 min_element = arr[i];
+          }
+          return max_diff;
     }
 
     static void Main(string[] args)
