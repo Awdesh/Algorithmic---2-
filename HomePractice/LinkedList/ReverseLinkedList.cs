@@ -36,17 +36,13 @@ namespace LinkedList
 			LinkedListNode temp = node;
 			while (temp!=null)
 			{
-				// store next node in temp.
-				LinkedListNode next = temp.getNext ();
-
 				temp.setNext (prev);
 				prev = temp;
 
 				// set temp to next variable.
-				temp = next;
+				temp = temp.getNext();
 			}
-			node = prev;
-			return node;
+			return prev;
 		}
 	}
 }

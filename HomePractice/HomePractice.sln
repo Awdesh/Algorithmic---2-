@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomePractice", "HomePractice\HomePractice.csproj", "{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{71CD4E16-E9E2-494D-8337-D87E59003424}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{88A94E8C-9751-44AB-BA66-FDF0D30B7DED}"
@@ -31,10 +29,6 @@ Global
 		{1EB418FF-4A02-45BF-A835-EAD488185220}.Debug|x86.Build.0 = Debug|x86
 		{1EB418FF-4A02-45BF-A835-EAD488185220}.Release|x86.ActiveCfg = Release|x86
 		{1EB418FF-4A02-45BF-A835-EAD488185220}.Release|x86.Build.0 = Release|x86
-		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Debug|x86.ActiveCfg = Debug|x86
-		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Debug|x86.Build.0 = Debug|x86
-		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Release|x86.ActiveCfg = Release|x86
-		{2A7FF6F9-CF4A-4E53-A38D-C11756F807A9}.Release|x86.Build.0 = Release|x86
 		{4261F43B-FA29-45A8-848C-82DE83585083}.Debug|x86.ActiveCfg = Debug|x86
 		{4261F43B-FA29-45A8-848C-82DE83585083}.Debug|x86.Build.0 = Debug|x86
 		{4261F43B-FA29-45A8-848C-82DE83585083}.Release|x86.ActiveCfg = Release|x86
@@ -69,6 +63,6 @@ Global
 		{E2643E22-E51F-423F-ACB8-EA324A984C12}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = LinkedList\LinkedList.csproj
+		StartupItem = Miscellaneous\Miscellaneous.csproj
 	EndGlobalSection
 EndGlobal

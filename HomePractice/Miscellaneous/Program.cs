@@ -47,25 +47,25 @@ namespace Miscellaneous
         //    return word.Equals("go") || word.Equals("hi");
         //}
 
-		public static void Main (string[] args)
-		{
-			Console.WriteLine ("Hello World!");
-
-			int[] cards = new int[52];
-			for (int i = 0; i< 52; i++) {
-				cards [i] = i;
-			}
-
-			Point p = new Point (5,10);
-
-			Point p1 = new Point (3,10);
-
-			Point p2 = new Point (4, 10);
-
-			Point[] pArr = new Point[]{p,p1,p2};
-
-			Solution s = new Solution ();
-			int max = s.MaxPoints (pArr);
+		//public static void Main (string[] args)
+		//{
+//			Console.WriteLine ("Hello World!");
+//
+//			int[] cards = new int[52];
+//			for (int i = 0; i< 52; i++) {
+//				cards [i] = i;
+//			}
+//
+//			Point p = new Point (5,10);
+//
+//			Point p1 = new Point (3,10);
+//
+//			Point p2 = new Point (4, 10);
+//
+//			Point[] pArr = new Point[]{p,p1,p2};
+//
+//			Solution s = new Solution ();
+//			int max = s.MaxPoints (pArr);
 
 			//CardShuffle cs = new CardShuffle ();
 			//int[] shuffledCards = cs.ShuffleCards (cards);
@@ -88,15 +88,14 @@ namespace Miscellaneous
 //			FindCommonLetter common = new FindCommonLetter ();
 //			common.FindCommon ("hi","world");
 //
-			AllValidPairOfParanthesis pair = new AllValidPairOfParanthesis ();
-			char[] chArr = new char[10];
-			pair.PrintParanthesis (0,3,0,0, chArr);
-
-			//StringDuplicates dups = new StringDuplicates ();
-//			dups.FindDuplicates("geeksforgeeks");
-
-<<<<<<< HEAD
-			CommonLetters cs1 = new CommonLetters();
+//			AllValidPairOfParanthesis pair = new AllValidPairOfParanthesis ();
+//			char[] chArr = new char[10];
+//			pair.PrintParanthesis (0,3,0,0, chArr);
+//
+//			//StringDuplicates dups = new StringDuplicates ();
+////			dups.FindDuplicates("geeksforgeeks");
+//
+//			CommonLetters cs1 = new CommonLetters();
 			// s = cs1.FindString("geeksforgeeks" , "geeks");
 
 //			char[] chArr = new char[]{'a','b','c'};
@@ -104,7 +103,6 @@ namespace Miscellaneous
 
 //			ss = "dir1/dir2/../..dir3";
 //			string[] str = ss.Split(new char[]{'/'});
-=======
 			//CommonLetters cs1 = new CommonLetters();
 			//string s = cs1.FindString("geeksforgeeks" , "geeks");
 
@@ -119,9 +117,9 @@ namespace Miscellaneous
 //			int[] arr = new int[] { 1,-3, 2, -5, 7, 6, -1, -4, 11, -23};
 //			int[] A = max.FindArray (arr);
 
-
->>>>>>> 25164514dc6624402e6ebcfdef718c186ae817ab
-
-		}
+			/*AreStringsAnagram ana = new AreStringsAnagram ();
+			bool val = ana.AnagramStrings("Dormitory", "dirty room");
+			Console.WriteLine (val);
+		}*/
 	}
 }

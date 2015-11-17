@@ -50,6 +50,8 @@
     <Compile Include="FrequencyOfArrayRotation.cs" />
     <Compile Include="MaxSumSubArray.cs" />
     <Compile Include="MaxPointSameLine.cs" />
+    <Compile Include="Anagrams.cs" />
+    <Compile Include="AddBinary.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

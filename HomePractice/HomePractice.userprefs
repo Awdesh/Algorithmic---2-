@@ -1,15 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Miscellaneous/FindFirstAndLastOccurance.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Miscellaneous/Anagrams.cs">
     <Files>
-      <File FileName="Miscellaneous/FindFirstAndLastOccurance.cs" Line="14" Column="27" />
-      <File FileName="Miscellaneous/Program.cs" Line="1" Column="1" />
+      <File FileName="Miscellaneous/FindFirstAndLastOccurance.cs" Line="1" Column="1" />
+      <File FileName="Miscellaneous/Program.cs" Line="121" Column="58" />
+      <File FileName="LinkedList/SwapNodes.cs" Line="25" Column="5" />
+      <File FileName="LinkedList/Program.cs" Line="109" Column="22" />
+      <File FileName="Miscellaneous/Anagrams.cs" Line="36" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/home/awdesh/Dropbox/CodeAtHome/Algorithmic-2/HomePractice/Miscellaneous/Program.cs" line="47" column="1" />
       <Breakpoint file="/home/awdesh/Dropbox/CodeAtHome/Algorithmic-2/HomePractice/Miscellaneous/FindFirstAndLastOccurance.cs" line="18" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/Program.cs" line="125" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/Program.cs" line="124" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/SwapNodes.cs" line="14" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/SwapNodes.cs" line="18" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/SwapNodes.cs" line="22" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/SwapNodes.cs" line="28" column="1" />
+      <Breakpoint file="/home/awdesh/sandbox/Algorithmic-2/Algorithmic-2/HomePractice/LinkedList/SwapNodes.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
