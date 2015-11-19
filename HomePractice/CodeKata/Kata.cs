@@ -257,14 +257,12 @@ class Solution
         {
             if(!char.IsLetter(chArr[i]))
             {
-                Console.WriteLine("ii");
                 i++;
                 continue;
             }
 
             if(!char.IsLetter(chArr[j]))
             {
-                Console.WriteLine("jj");
                 j--;
                 continue;
             }
