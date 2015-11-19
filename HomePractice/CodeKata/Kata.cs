@@ -1,5 +1,3 @@
-// This is the text editor interface.
-// Anything you type or change here will be seen by the other person in real time.
 using System;
 using System.Collections.Generic;
 using System.Text;
