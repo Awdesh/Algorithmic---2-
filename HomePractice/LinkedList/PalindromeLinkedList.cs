@@ -12,31 +12,36 @@ namespace LinkedList
 		{
 			LinkedListNode n = FindMiddleNode (node);
 			LinkedListNode current = n.getNext ();
-			LinkedListNode m = SwapLinkedList(current);
-
-			return false;
+			LinkedListNode m = ReverseLinkedList(current);
+			// compare first half and second half.
+			return CompareLists(node, m);
+		}
+		
+		public boolean CompareLists(LinkedListNode L1, LinkedListNode L2)
+		{
+			while(L1.getNext() != null && L2.getNext() != null)
+			{
+				if(L1.getData() != L2.getData())
+				{
+					return false;
+				}
+			}
+			
+			return true;
 		}
 
-		public LinkedListNode SwapLinkedList(LinkedListNode node)
+		public LinkedListNode ReverseLinkedList(LinkedListNode node)
 		{
+			LinkedListNode prev = null;
 			LinkedListNode current = node;
-			int temp;
+			LinkedListNode next;
 			while (current.getNext()!=null) {
-				temp = current.getNext ().getData();
-				current.getNext ().setData(current.getNext ().getNext ().getData());
-				current.getNext ().getNext ().setData(temp);
-				current = current.getNext ();
+				next = current.getNext ();
+				current.getNext () = prev;
+				prev = current;
+				current = next;
 			}
-			return node;
-
-//			LinkedListNode prev = current;
-//			LinkedListNode next;
-//			while (current.getNext()!=null) {
-//				next = current.getNext ();
-//				current.getNext () = prev;
-//				prev = current;
-//				current = next;
-//			}
+	           return node;
 		}
 
 		public LinkedListNode FindMiddleNode(LinkedListNode head)
