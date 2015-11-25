@@ -10,7 +10,7 @@ namespace Tree
 		}
 
         /// <summary>
-        /// 
+        /// method to find value in a tree.
         /// </summary>
         /// <param name="node"></param>
         /// <param name="value"></param>
