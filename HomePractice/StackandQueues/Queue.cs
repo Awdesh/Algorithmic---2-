@@ -33,7 +33,6 @@ namespace StackandQueues
 			int item = items [index];
 			items [index] = 0;
 			index += 1;
-//			size = size - index;
 			return item;
 		}
 
