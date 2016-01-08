@@ -29,26 +29,6 @@ namespace Test
 				Test1 (d / 10);
 				Console.WriteLine (d % 10);
 			}
-				
-//				int rem = d % 10;
-//				if (d == 0) {
-//					return;
-//				} else {
-//					Test1(d / 10);
-//				}
-//				Console.WriteLine(rem);
-
-
-		}
-
-
-
-		/// <summary>
-		/// Test2 this instance.
-		/// </summary>
-		public static void Test2()
-		{
-
 		}
 	}
 }
