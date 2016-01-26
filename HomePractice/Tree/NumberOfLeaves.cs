@@ -21,7 +21,6 @@ namespace Tree
 			}
 		}
 
-		// 
 		public void PrintPaths(int[] path, TreeNode root, int len)
 		{
 			if (root == null) {
