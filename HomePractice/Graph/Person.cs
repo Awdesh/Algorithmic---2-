@@ -5,11 +5,6 @@ namespace Graph
 {
 	public class Person
 	{
-		public Person()
-		{
-
-		}
-
 		public Person(string name)
 		{
 			this.name = name;
